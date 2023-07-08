@@ -12,3 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae2c2458ee74623a642c858adf6113f, type: 3}
   m_Name: GameConfig
   m_EditorClassIdentifier: 
+  <SpikesDps>k__BackingField: 1
+  <ThicketsSlow>k__BackingField: 0.7
+  <GameOverCountdownTimeSeconds>k__BackingField: 15

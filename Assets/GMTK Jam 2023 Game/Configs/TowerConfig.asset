@@ -12,3 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f6cd897161442d8a1544c816dc0f0a9, type: 3}
   m_Name: TowerConfig
   m_EditorClassIdentifier: 
+  _entries:
+  - Id: Archer Tower
+    Prices: 010000000200000003000000
+    Prefabs:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - Id: Spearman Outpost
+    Prices: 010000000200000003000000
+    Prefabs:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - Id: Mage Tower
+    Prices: 010000000200000003000000
+    Prefabs:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}

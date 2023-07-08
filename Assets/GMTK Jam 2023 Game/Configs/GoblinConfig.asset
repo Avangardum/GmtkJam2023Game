@@ -12,3 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be89fb8ec88a4c8b95c01e5fcacf8a26, type: 3}
   m_Name: GoblinConfig
   m_EditorClassIdentifier: 
+  _entries:
+  - Id: Common Goblin
+    Price: 1
+    Prefab: {fileID: 0}
+  - Id: Goblin Shaman
+    Price: 1
+    Prefab: {fileID: 0}

@@ -12,3 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3aaa6eac62a486a887e7d619293bb29, type: 3}
   m_Name: LevelConfig
   m_EditorClassIdentifier: 
+  Waypoints:
+  - {x: 4, y: 0, z: 3}
+  - {x: 4, y: 0, z: 0}
+  - {x: -4, y: 0, z: 0}
+  - {x: -4, y: 0, z: -3}
+  - {x: 4, y: 0, z: -3}

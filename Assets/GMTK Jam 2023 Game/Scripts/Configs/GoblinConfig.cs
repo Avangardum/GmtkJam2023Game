@@ -1,11 +1,26 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 namespace Avangardum.GmtkJam2023Game.Configs
 {
     public class GoblinConfig : ScriptableObject
     {
-        public int GetGoblinPrice(string goblinId) => throw new NotImplementedException();
-        public GameObject GetGoblinPrefab(string goblinId) => throw new NotImplementedException();
+        [Serializable]
+        private class Entry
+        {
+            public string Id;
+            public int Price;
+            public GameObject Prefab;
+        }
+
+        [SerializeField] private List<Entry> _entries;
+
+        public int GetGoblinPrice(string id) => GetEntry(id).Price;
+
+        public GameObject GetGoblinPrefab(string id) => GetEntry(id).Prefab;
+
+        private Entry GetEntry(string id) => _entries.Single(e => e.Id == id);
     }
 }
